@@ -1,0 +1,20 @@
+name: "Ryan Rosenblatt Portfolio"
+url: "ryanrosenblatt.me"
+description: "Github pages using InK, plus Jekyll boilerplate. WIP"
+use_leaflet: 1
+blog_more_posts: 5
+prettify_theme: "ghink"
+markdown: redcarpet
+pygments: true
+paginate: 3
+paginate_path: "blog/page/:num"
+timezone: America/New_York
+redcarpet:
+  extensions:
+    - hard_wrap
+    - no_intra_emphasis
+    - autolink
+    - strikethrough
+    - fenced_code_blocks
+gems:
+    - jekyll-sitemap
